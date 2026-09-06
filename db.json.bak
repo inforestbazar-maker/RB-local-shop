@@ -1,0 +1,977 @@
+{
+  "users": [
+    {
+      "phone": "01711111111",
+      "name": "রনি আহমেদ",
+      "role": "user",
+      "favorites": [
+        "biz-1",
+        "biz-3"
+      ],
+      "createdAt": "2026-07-11T15:06:23.375Z",
+      "email": "01711111111@restbazar.com",
+      "password": "123456"
+    },
+    {
+      "phone": "01811222333",
+      "name": "মোহাম্মদ ইউসুফ",
+      "role": "merchant",
+      "favorites": [],
+      "createdAt": "2026-07-11T15:06:23.375Z",
+      "email": "01811222333@restbazar.com",
+      "password": "123456"
+    },
+    {
+      "phone": "01911999999",
+      "name": "info.restbazar@gmail.com",
+      "role": "admin",
+      "email": "info.restbazar@gmail.com",
+      "password": "SMsagor@12",
+      "favorites": [],
+      "createdAt": "2026-07-11T15:06:23.375Z",
+      "location": {
+        "lat": 24.314766,
+        "lng": 89.174061,
+        "address": "বড়াইগ্রাম, বড়াইগ্রাম উপজেলা, নাটোর জেলা, রাজশাহী বিভাগ, বাংলাদেশ",
+        "district": "বড়াইগ্রাম"
+      }
+    },
+    {
+      "phone": "01799887766",
+      "name": "Test Customer",
+      "role": "user",
+      "email": "testcustomer@gmail.com",
+      "password": "password123",
+      "location": {
+        "district": "ঢাকা (Dhaka)",
+        "division": "Dhaka (ঢাকা)",
+        "thana": "ধানমন্ডি (Dhanmondi)",
+        "lat": 23.75,
+        "lng": 90.38,
+        "address": "Dhanmondi, Dhaka"
+      },
+      "favorites": [],
+      "createdAt": "2026-08-13T18:02:58.092Z"
+    },
+    {
+      "phone": "01855667788",
+      "name": "Shop Owner Rahman",
+      "role": "merchant",
+      "email": "rahmanstore@gmail.com",
+      "password": "password123",
+      "location": {
+        "district": "ঢাকা (Dhaka)",
+        "division": "Dhaka (ঢাকা)",
+        "thana": "ধানমন্ডি (Dhanmondi)",
+        "lat": 23.75,
+        "lng": 90.38,
+        "address": "Dhanmondi, Dhaka"
+      },
+      "favorites": [],
+      "createdAt": "2026-08-13T18:03:07.629Z",
+      "isMerchantVerified": false
+    }
+  ],
+  "businesses": [
+    {
+      "id": "biz-1",
+      "ownerPhone": "01811222333",
+      "name": "মা ফুড অ্যান্ড গ্রোসারি",
+      "category": "grocery",
+      "type": "shop",
+      "phone": "01811222333",
+      "whatsapp": "01811222333",
+      "logo": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=200",
+      "images": [
+        "https://images.unsplash.com/photo-1578916171728-46686eac8d58?auto=format&fit=crop&q=80&w=600",
+        "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=600"
+      ],
+      "description": "এখানে উন্নত মানের চাল, ডাল, তেল, মসলা, ও নিত্যপ্রয়োজনীয় সকল মুদি সামগ্রী খুচরা ও পাইকারি মূল্যে পাওয়া যায়। আমরা ধানমন্ডি ও আশেপাশের এলাকায় দ্রুত হোম ডেলিভারি দিয়ে থাকি।",
+      "address": "বাড়ি ১৫, রোড ৪/এ, ধানমন্ডি, ঢাকা",
+      "location": {
+        "lat": 23.734,
+        "lng": 90.378
+      },
+      "isOpen": true,
+      "hasHomeDelivery": true,
+      "deliveryCharge": 40,
+      "subscriptionPlan": "gold",
+      "subscriptionExpiry": "2027-12-31T23:59:59.000Z",
+      "balance": 4500,
+      "rating": 4.8,
+      "reviewsCount": 3,
+      "products": [
+        {
+          "id": "p-1",
+          "name": "মিনিকেট চাল (১ কেজি)",
+          "price": 72,
+          "originalPrice": 78,
+          "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=200",
+          "description": "প্রিমিয়াম ফ্রেশ মিনিকেট চাল",
+          "isAvailable": true,
+          "isApproved": true
+        },
+        {
+          "id": "p-2",
+          "name": "রূপচাঁদা সয়াবিন তেল (২ লিটার)",
+          "price": 330,
+          "originalPrice": 345,
+          "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=200",
+          "description": "বিশুদ্ধ ভোজ্য তেল",
+          "isAvailable": true,
+          "isApproved": true
+        },
+        {
+          "id": "p-3",
+          "name": "মসুর ডাল দেশী (১ কেজি)",
+          "price": 140,
+          "originalPrice": 150,
+          "image": "https://images.unsplash.com/photo-1547825407-2d060104b7f8?auto=format&fit=crop&q=80&w=200",
+          "description": "এক নম্বর দেশী মসুর ডাল",
+          "isAvailable": true,
+          "isApproved": true
+        },
+        {
+          "id": "p-4",
+          "name": "আড়ং ঘি (৪০০ গ্রাম)",
+          "price": 620,
+          "originalPrice": 650,
+          "isAvailable": true,
+          "isApproved": true
+        }
+      ],
+      "services": [],
+      "reviews": [
+        {
+          "id": "rev-1",
+          "businessId": "biz-1",
+          "userName": "তানভীর হাসান",
+          "userPhone": "01722334455",
+          "rating": 5,
+          "comment": "খুব চমৎকার সার্ভিস! মাত্র ৩০ মিনিটে ডেলিভারি পেয়েছি। চালের মানও অনেক ভালো।",
+          "images": [],
+          "date": "2026-07-01T12:00:00.000Z"
+        },
+        {
+          "id": "rev-2",
+          "businessId": "biz-1",
+          "userName": "সাদিয়া রহমান",
+          "userPhone": "01511223344",
+          "rating": 4,
+          "comment": "ভালো ব্যবহার এবং তাজা পণ্য। ধন্যবাদ আর বি লোকাল!",
+          "images": [],
+          "date": "2026-07-05T15:30:00.000Z"
+        }
+      ],
+      "offers": [
+        {
+          "id": "off-1",
+          "title": "১০% ফ্ল্যাট ছাড়",
+          "code": "RBLOCAL10",
+          "discountPercent": 10,
+          "description": "১০০০ টাকার বেশি অর্ডারে ১০% ছাড় পান!",
+          "expiryDate": "2026-12-31"
+        }
+      ],
+      "transactions": [
+        {
+          "id": "tr-1",
+          "type": "income",
+          "amount": 1200,
+          "description": "অর্ডার #RBO-8910 থেকে আয়",
+          "date": "2026-07-10T11:00:00.000Z"
+        }
+      ],
+      "isApproved": true,
+      "division": "Dhaka (ঢাকা)",
+      "district": "ঢাকা (Dhaka)",
+      "thana": "ধানমন্ডি (Dhanmondi)",
+      "lat": 23.734,
+      "lng": 90.378,
+      "customers": []
+    },
+    {
+      "id": "biz-2",
+      "ownerPhone": "01712000111",
+      "name": "আলিফ ফার্মেসি",
+      "category": "pharmacy",
+      "type": "shop",
+      "phone": "01712000111",
+      "whatsapp": "01712000111",
+      "logo": "https://images.unsplash.com/photo-1586015555751-63bb77f4322a?auto=format&fit=crop&q=80&w=200",
+      "images": [
+        "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=600"
+      ],
+      "description": "এখানে দেশী-বিদেশী সকল প্রকার জীবন রক্ষাকারী ওষুধ, সার্জিক্যাল আইটেম এবং বেবি ফুড সুলভ মূল্যে পাওয়া যায়। প্রেসক্রিপশন আপলোড করলে হোম ডেলিভারির সুবিধা রয়েছে।",
+      "address": "সোবহানবাগ মসজিদ সংলগ্ন, মিরপুর রোড, ঢাকা",
+      "location": {
+        "lat": 23.752,
+        "lng": 90.375
+      },
+      "isOpen": true,
+      "hasHomeDelivery": true,
+      "deliveryCharge": 30,
+      "subscriptionPlan": "silver",
+      "subscriptionExpiry": "2027-10-15T23:59:59.000Z",
+      "balance": 1200,
+      "rating": 4.9,
+      "reviewsCount": 1,
+      "products": [
+        {
+          "id": "p-201",
+          "name": "প্যারাসিটামল নাপা এক্সটেন্ড (১ পাতা)",
+          "price": 15,
+          "originalPrice": 15,
+          "description": "প্যারাসিটামল ৬৬৫ মি.গ্রা. ট্যাবলেট",
+          "isAvailable": true,
+          "isApproved": true
+        },
+        {
+          "id": "p-202",
+          "name": "সার্জিক্যাল ফেস মাস্ক (৫০ পিস)",
+          "price": 120,
+          "originalPrice": 150,
+          "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=200",
+          "isAvailable": true,
+          "isApproved": true
+        },
+        {
+          "id": "p-203",
+          "name": "স্যাভলন হ্যান্ড স্যানিটাইজার (১০০ মিলি)",
+          "price": 95,
+          "originalPrice": 100,
+          "isAvailable": true,
+          "isApproved": true
+        }
+      ],
+      "services": [],
+      "reviews": [
+        {
+          "id": "rev-3",
+          "businessId": "biz-2",
+          "userName": "মো: আরিফ",
+          "userPhone": "01711223344",
+          "rating": 5,
+          "comment": "জরুরি সময়ে তারা অনেক সাহায্য করেছে। রাত ১২টায় ওষুধ ডেলিভারি পেয়েছি।",
+          "images": [],
+          "date": "2026-07-09T22:15:00.000Z"
+        }
+      ],
+      "offers": [],
+      "transactions": [],
+      "isApproved": true,
+      "division": "Dhaka (ঢাকা)",
+      "district": "ঢাকা (Dhaka)",
+      "thana": "মিরপুর (Mirpur)",
+      "lat": 23.752,
+      "lng": 90.375,
+      "customers": []
+    },
+    {
+      "id": "biz-3",
+      "ownerPhone": "01912334455",
+      "name": "কবির ইলেকট্রিক্যাল সার্ভিসেস",
+      "category": "electrician",
+      "type": "service",
+      "phone": "01912334455",
+      "whatsapp": "01912334455",
+      "logo": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&q=80&w=200",
+      "images": [
+        "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&q=80&w=600"
+      ],
+      "description": "বাসা-বাড়ি ও অফিসের যাবতীয় ওয়্যারিং, ফ্যান, এসি, ফ্রিজ, গিজার মেরামত ও ফিটিং সেবা অত্যন্ত সততার সাথে দেওয়া হয়। অভিজ্ঞ টেকনিশিয়ান দ্বারা কাজ সম্পন্ন করা হয়।",
+      "address": "ঝিগাতলা বাজার রোড, ঢাকা",
+      "location": {
+        "lat": 23.736,
+        "lng": 90.37
+      },
+      "isOpen": true,
+      "subscriptionPlan": "diamond",
+      "subscriptionExpiry": "2027-08-20T23:59:59.000Z",
+      "balance": 8900,
+      "rating": 4.7,
+      "reviewsCount": 2,
+      "products": [],
+      "services": [
+        {
+          "id": "s-1",
+          "name": "হাউজ ওয়্যারিং সার্ভিস (প্রতি পয়েন্ট)",
+          "charge": 150,
+          "description": "নতুন ওয়্যারিং ও ত্রুটি মেরামত",
+          "isAvailable": true,
+          "isApproved": true
+        },
+        {
+          "id": "s-2",
+          "name": "এসি সার্ভিসিং ও গ্যাস চার্জ",
+          "charge": 1500,
+          "description": "ইনডোর ও আউটডোর ক্লিনিং সহ গ্যাস রিফিল",
+          "isAvailable": true,
+          "isApproved": true
+        },
+        {
+          "id": "s-3",
+          "name": "ফ্রিজ ও ওয়াশিং মেশিন মেরামত",
+          "charge": 600,
+          "description": "যেকোনো ব্র্যান্ডের হোম অ্যাপ্লায়েন্স সার্ভিসিং",
+          "isAvailable": true,
+          "isApproved": true
+        }
+      ],
+      "reviews": [
+        {
+          "id": "rev-4",
+          "businessId": "biz-3",
+          "userName": "ইমরান কবির",
+          "userPhone": "01822114455",
+          "rating": 5,
+          "comment": "এসি থেকে পানি পড়ছিল, কবির ভাই এসে ৩০ মিনিটে ঠিক করে দিয়ে গেছেন। চার্জও রিজনেবল ছিল।",
+          "images": [],
+          "date": "2026-07-02T16:00:00.000Z"
+        },
+        {
+          "id": "rev-5",
+          "businessId": "biz-3",
+          "userName": "মাহমুদা আক্তার",
+          "userPhone": "01677665544",
+          "rating": 4,
+          "comment": "খুব দক্ষ এবং ভদ্র ইলেকট্রিশিয়ান। কাজ খুব নিখুঁতভাবে শেষ করেছেন।",
+          "images": [],
+          "date": "2026-07-06T11:45:00.000Z"
+        }
+      ],
+      "offers": [
+        {
+          "id": "off-2",
+          "title": "এসি সার্ভিসে ২০০ টাকা ছাড়",
+          "code": "AC200",
+          "discountPercent": 12,
+          "description": "এসি সার্ভিসিং সার্ভিসে ফ্ল্যাট ২০০ টাকা ছাড় পান!",
+          "expiryDate": "2026-09-30"
+        }
+      ],
+      "transactions": [],
+      "isApproved": true,
+      "division": "Dhaka (ঢাকা)",
+      "district": "ঢাকা (Dhaka)",
+      "thana": "ধানমন্ডি (Dhanmondi)",
+      "lat": 23.736,
+      "lng": 90.37,
+      "customers": []
+    },
+    {
+      "id": "biz-4",
+      "ownerPhone": "01511002233",
+      "name": "রাজু প্লাম্বিং ও পাইপ ফিটিং",
+      "category": "plumber",
+      "type": "service",
+      "phone": "01511002233",
+      "whatsapp": "01511002233",
+      "logo": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80&w=200",
+      "images": [
+        "https://images.unsplash.com/photo-1607472586893-edb5ca08f553?auto=format&fit=crop&q=80&w=600"
+      ],
+      "description": "ট্যাপ, বেসিন, কমোড, পানির পাম্প ফিটিংস এবং পাইপ লাইনের যেকোনো ব্লকেজ ও ফুটো মেরামতে আমরা সার্বক্ষণিক নিয়োজিত। দ্রুত ও দীর্ঘস্থায়ী প্লাম্বিং সেবার জন্য বুক করুন।",
+      "address": "লালমাটিয়া ডিলক্স এরিয়া, ঢাকা",
+      "location": {
+        "lat": 23.754,
+        "lng": 90.368
+      },
+      "isOpen": true,
+      "subscriptionPlan": "free",
+      "balance": 0,
+      "rating": 4.5,
+      "reviewsCount": 1,
+      "products": [],
+      "services": [
+        {
+          "id": "s-10",
+          "name": "বেসিন ও কমোড ফিটিং",
+          "charge": 800,
+          "description": "নতুন বেসিন বা কমোড সেটআপ সার্ভিস",
+          "isAvailable": true,
+          "isApproved": true
+        },
+        {
+          "id": "s-11",
+          "name": "লাইন লিকেজ ও ব্লকেজ মেরামত",
+          "charge": 400,
+          "description": "পাইপের ভেতরের ব্লকেজ দূর করা ও ফুটো বন্ধ করা",
+          "isAvailable": true,
+          "isApproved": true
+        }
+      ],
+      "reviews": [
+        {
+          "id": "rev-6",
+          "businessId": "biz-4",
+          "userName": "রাকিব চৌধুরী",
+          "userPhone": "01300998877",
+          "rating": 4,
+          "comment": "কাজ ভালো করেছেন। সময়মতো এসেছেন।",
+          "images": [],
+          "date": "2026-07-08T09:00:00.000Z"
+        }
+      ],
+      "offers": [],
+      "transactions": [],
+      "isApproved": true,
+      "division": "Dhaka (ঢাকা)",
+      "district": "ঢাকা (Dhaka)",
+      "thana": "মোহাম্মদপুর (Mohammadpur)",
+      "lat": 23.754,
+      "lng": 90.368,
+      "customers": []
+    },
+    {
+      "id": "biz-5",
+      "ownerPhone": "01622334455",
+      "name": "রবিন স্যার হোম টিউটর কেয়ার",
+      "category": "tutor",
+      "type": "service",
+      "phone": "01622334455",
+      "whatsapp": "01622334455",
+      "logo": "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?auto=format&fit=crop&q=80&w=200",
+      "images": [
+        "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&q=80&w=600"
+      ],
+      "description": "আমি বুয়েট থেকে মেকানিক্যাল ইঞ্জিনিয়ারিং-এ স্নাতক সম্পন্ন করেছি। নবম-দ্বাদশ শ্রেণী পর্যন্ত পদার্থবিজ্ঞান ও গণিত অত্যন্ত যত্নসহকারে পড়িয়ে থাকি। বিগত ৫ বছরের সফল শিক্ষকতার অভিজ্ঞতা রয়েছে।",
+      "address": "গ্রীন রোড, পান্থপথ, ঢাকা",
+      "location": {
+        "lat": 23.75,
+        "lng": 90.383
+      },
+      "isOpen": true,
+      "subscriptionPlan": "gold",
+      "subscriptionExpiry": "2027-04-12T23:59:59.000Z",
+      "balance": 15000,
+      "rating": 5,
+      "reviewsCount": 2,
+      "products": [],
+      "services": [
+        {
+          "id": "s-20",
+          "name": "সাপ্তাহিক ৩ দিন কোর্স (মাসে)",
+          "charge": 5000,
+          "description": "SSC ও HSC পরীক্ষার্থীদের বিশেষ যত্ন",
+          "isAvailable": true,
+          "isApproved": true
+        },
+        {
+          "id": "s-21",
+          "name": "মেডিকেল ও বুয়েট ভর্তি প্রস্তুতি কোর্স",
+          "charge": 8000,
+          "description": "পদার্থ ও উচ্চতর গণিতের কমপ্লিট সলিউশন",
+          "isAvailable": true,
+          "isApproved": true
+        }
+      ],
+      "reviews": [
+        {
+          "id": "rev-7",
+          "businessId": "biz-5",
+          "userName": "শাফিন আহমেদ",
+          "userPhone": "01722998811",
+          "rating": 5,
+          "comment": "স্যার অনেক চমৎকারভাবে কঠিন বিষয়গুলো সহজ করে বুঝিয়ে দেন। আমার গণিতের ভয় কেটে গেছে।",
+          "images": [],
+          "date": "2026-07-04T20:00:00.000Z"
+        },
+        {
+          "id": "rev-8",
+          "businessId": "biz-5",
+          "userName": "অভিভাবক শামীমা",
+          "userPhone": "01933887766",
+          "rating": 5,
+          "comment": "উনার পড়ানোর ধরন অনেক নিয়মতান্ত্রিক। আমার ছেলের ফলাফলে ব্যাপক পরিবর্তন এসেছে। ধন্যবাদ!",
+          "images": [],
+          "date": "2026-07-07T14:30:00.000Z"
+        }
+      ],
+      "offers": [],
+      "transactions": [],
+      "isApproved": true,
+      "division": "Dhaka (ঢাকা)",
+      "district": "ঢাকা (Dhaka)",
+      "thana": "তেজগাঁও (Tejgaon)",
+      "lat": 23.75,
+      "lng": 90.383,
+      "customers": []
+    },
+    {
+      "id": "biz-wholesale-1",
+      "ownerPhone": "01811222333",
+      "name": "মেসার্স ভাই ভাই পাইকারি ট্রেডার্স",
+      "category": "wholesale",
+      "type": "shop",
+      "phone": "01811222333",
+      "whatsapp": "01811222333",
+      "logo": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=200",
+      "images": [
+        "https://images.unsplash.com/photo-1578916171728-46686eac8d58?auto=format&fit=crop&q=80&w=600"
+      ],
+      "description": "এখানে সকল প্রকার মুদি সামগ্রী, ডাল, চাল, তেল, ও সাবান পাইকারি মূল্যে বিক্রয় করা হয়। শুধুমাত্র নিবন্ধিত খুচরা দোকানিরা (Retail Merchants) এখান থেকে ক্রয় করতে পারবেন। ন্যূনতম অর্ডার ১০০০ টাকা।",
+      "address": "কারওয়ান বাজার পাইকারি আড়ত, ঢাকা",
+      "location": {
+        "lat": 23.751,
+        "lng": 90.392
+      },
+      "isOpen": true,
+      "isWholesale": true,
+      "hasHomeDelivery": true,
+      "deliveryCharge": 150,
+      "subscriptionPlan": "diamond",
+      "balance": 25000,
+      "rating": 4.9,
+      "reviewsCount": 1,
+      "products": [
+        {
+          "id": "wp-1",
+          "name": "মিনিকেট চাল ৫০ কেজি বস্তা (পাইকারি)",
+          "price": 3200,
+          "originalPrice": 3400,
+          "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=200",
+          "description": "সেরা মানের মিনিকেট চালের ৫০ কেজির বস্তা। শুধুমাত্র খুচরা দোকানিদের জন্য প্রযোজ্য।",
+          "isAvailable": true
+        },
+        {
+          "id": "wp-2",
+          "name": "রূপচাঁদা সয়াবিন তেল ৫ লিটার কার্টন (৪ পিস)",
+          "price": 3100,
+          "originalPrice": 3300,
+          "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=200",
+          "description": "৪টি ৫ লিটার ক্যানের ১ কার্টন পাইকারি লট।",
+          "isAvailable": true
+        },
+        {
+          "id": "wp-3",
+          "name": "মসুর ডাল ২৫ কেজি বস্তা (পাইকারি)",
+          "price": 2800,
+          "originalPrice": 3000,
+          "image": "https://images.unsplash.com/photo-1547825407-2d060104b7f8?auto=format&fit=crop&q=80&w=200",
+          "description": "এক নম্বর দেশী মসুর ডাল ২৫ কেজির হাফ বস্তা।",
+          "isAvailable": true
+        }
+      ],
+      "services": [],
+      "reviews": [
+        {
+          "id": "wrev-1",
+          "businessId": "biz-wholesale-1",
+          "userName": "মোহাম্মদ ইউসুফ",
+          "userPhone": "01811222333",
+          "rating": 5,
+          "comment": "আমি আমার মুদি দোকানের জন্য এখান থেকে সবসময় মাল নিই। পাইকারি রেট অনেক কম এবং আসল পণ্য।",
+          "images": [],
+          "date": "2026-07-12T10:00:00.000Z"
+        }
+      ],
+      "offers": [],
+      "transactions": [],
+      "isApproved": true,
+      "division": "Dhaka (ঢাকা)",
+      "district": "ঢাকা (Dhaka)",
+      "thana": "তেজগাঁও (Tejgaon)",
+      "lat": 23.751,
+      "lng": 90.392,
+      "customers": []
+    },
+    {
+      "id": "biz_1786644187629_800",
+      "name": "রহমান স্টোর ও ভ্যারাইটিজ",
+      "ownerPhone": "01855667788",
+      "ownerName": "Shop Owner Rahman",
+      "phone": "01855667788",
+      "category": "grocery",
+      "type": "shop",
+      "rating": 5,
+      "reviewsCount": 0,
+      "address": "Dhanmondi, Dhaka",
+      "district": "ঢাকা (Dhaka)",
+      "division": "Dhaka (ঢাকা)",
+      "thana": "ধানমন্ডি (Dhanmondi)",
+      "location": {
+        "lat": 23.75,
+        "lng": 90.38
+      },
+      "lat": 23.75,
+      "lng": 90.38,
+      "deliveryRadiusKm": 10,
+      "isOpen": true,
+      "isApproved": false,
+      "isAutoItemApprovalAllowed": false,
+      "subscriptionPlan": "gold",
+      "description": "তাজা পণ্য ও মুদি সামগ্রী",
+      "images": [],
+      "products": [],
+      "services": [],
+      "reviews": [],
+      "offers": [],
+      "transactions": [],
+      "customers": [],
+      "balance": 0,
+      "createdAt": "2026-08-13T18:03:07.629Z"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "RBO-8910",
+      "businessId": "biz-1",
+      "businessName": "ما ফুড অ্যান্ড গ্রোসারি",
+      "businessPhone": "01811222333",
+      "businessCategory": "grocery",
+      "userPhone": "01711111111",
+      "userName": "রনি আহমেদ",
+      "userAddress": "রোড ৫, ধানমন্ডি, ঢাকা",
+      "type": "order",
+      "items": [
+        {
+          "id": "p-1",
+          "name": "মিনিকেট চাল (১ কেজি)",
+          "quantity": 5,
+          "price": 72
+        },
+        {
+          "id": "p-2",
+          "name": "রূপচাঁদা সয়াবিন তেল (২ লিটার)",
+          "quantity": 2,
+          "price": 330
+        }
+      ],
+      "bookingDate": "2026-07-10",
+      "totalPrice": 1020,
+      "deliveryCharge": 40,
+      "status": "completed",
+      "paymentMethod": "bkash",
+      "paymentStatus": "paid",
+      "createdAt": "2026-07-10T10:15:00.000Z"
+    },
+    {
+      "id": "RBB-4321",
+      "businessId": "biz-3",
+      "businessName": "কবির ইলেকট্রিক্যাল সার্ভিসেস",
+      "businessPhone": "01912334455",
+      "businessCategory": "electrician",
+      "userPhone": "01711111111",
+      "userName": "রনি আহমেদ",
+      "userAddress": "বাড়ি ২০, রোড ৪/এ, ধানমন্ডি, ঢাকা",
+      "type": "service",
+      "items": [
+        {
+          "id": "s-2",
+          "name": "এসি সার্ভিসিং ও গ্যাস চার্জ",
+          "quantity": 1,
+          "price": 1500
+        }
+      ],
+      "bookingDate": "2026-07-12",
+      "bookingTime": "১১:০০ সকাল",
+      "totalPrice": 1500,
+      "status": "pending",
+      "paymentMethod": "cod",
+      "paymentStatus": "pending",
+      "createdAt": "2026-07-11T00:10:00.000Z"
+    }
+  ],
+  "chats": [
+    {
+      "id": "ch-1",
+      "fromPhone": "01711111111",
+      "toPhone": "01811222333",
+      "text": "ভাইয়া, চাল কি আজকের মধ্যে পাওয়া যাবে?",
+      "timestamp": "2026-07-10T09:00:00.000Z",
+      "isRead": true
+    },
+    {
+      "id": "ch-2",
+      "fromPhone": "01811222333",
+      "toPhone": "01711111111",
+      "text": "হ্যাঁ ভাইয়া, অর্ডার দিলে ১ ঘণ্টার মধ্যে পৌঁছে যাবে ইনশাআল্লাহ।",
+      "timestamp": "2026-07-10T09:05:00.000Z",
+      "isRead": true
+    },
+    {
+      "id": "ch-3",
+      "fromPhone": "01711111111",
+      "toPhone": "01912334455",
+      "text": "এসি সার্ভিসিং এর কত সময় লাগতে পারে?",
+      "timestamp": "2026-07-11T00:02:00.000Z",
+      "isRead": false
+    }
+  ],
+  "complaints": [
+    {
+      "id": "comp-1",
+      "userPhone": "01711111111",
+      "userName": "রনি আহমেদ",
+      "businessId": "biz-4",
+      "businessName": "রাজু প্লাম্বিং ও পাইপ ফিটিং",
+      "subject": "বিল বেশি দাবি করা হয়েছে",
+      "details": "কাজ অনুযায়ী প্লাম্বার অতিরিক্ত ৩০০ টাকা বিল দাবি করেছে এবং খারাপ আচরণ করেছে। অনুগ্রহ করে খতিয়ে দেখুন।",
+      "status": "pending",
+      "date": "2026-07-10T14:00:00.000Z"
+    }
+  ],
+  "adCampaigns": [
+    {
+      "id": "ad-1",
+      "businessId": "biz-1",
+      "businessName": "মা ফুড অ্যান্ড গ্রোসারি",
+      "placement": "homepage",
+      "bannerImage": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=800",
+      "budget": 500,
+      "status": "approved",
+      "createdAt": "2026-07-01T00:00:00.000Z",
+      "views": 245,
+      "clicks": 38
+    },
+    {
+      "id": "ad-admin-1",
+      "businessId": "admin",
+      "businessName": "Admin (রেস্ট বাজার অফিশিয়াল)",
+      "placement": "homepage",
+      "bannerImage": "https://images.unsplash.com/photo-1526367790999-015078648c7e?auto=format&fit=crop&q=80&w=800",
+      "budget": 1000,
+      "status": "approved",
+      "createdAt": "2026-07-15T00:00:00.000Z",
+      "views": 520,
+      "clicks": 98
+    },
+    {
+      "id": "ad-admin-2",
+      "businessId": "admin",
+      "businessName": "Admin (জরুরি সেবা গাইডলাইন)",
+      "placement": "homepage",
+      "bannerImage": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "budget": 2000,
+      "status": "approved",
+      "createdAt": "2026-07-16T00:00:00.000Z",
+      "views": 840,
+      "clicks": 142
+    },
+    {
+      "id": "ad-2",
+      "businessId": "biz-3",
+      "businessName": "কবির ইলেকট্রিক্যাল সার্ভিসেস",
+      "placement": "category",
+      "bannerImage": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&q=80&w=800",
+      "budget": 300,
+      "status": "pending",
+      "createdAt": "2026-07-10T12:00:00.000Z",
+      "views": 0,
+      "clicks": 0
+    }
+  ],
+  "tickerMessages": [
+    {
+      "id": "tick-1",
+      "text": "⚡ রেস্ট বাজার দ্রুততম বুকিং সেবা: ধানমন্ডি জুড়ে ৫ মিনিটে কনফার্মেশন!",
+      "detail": "রেস্ট বাজারে গ্রাহকরা যেকোনো স্থানীয় দোকান থেকে দ্রুততম সময়ের মধ্যে বুকিং এবং অর্ডার সেবা পেয়ে থাকেন। অর্ডার করার মাত্র ৫ মিনিটের মধ্যে মার্চেন্ট তা নিশ্চিত করে ডেলিভারির প্রক্রিয়া শুরু করে থাকে। কোনো প্রকার বিলম্ব ছাড়াই আপনার কাঙ্ক্ষিত পণ্য বা সেবা আপনার দোরগোড়ায় পৌঁছে দিতে আমরা সর্বদা প্রস্তুত।"
+    },
+    {
+      "id": "tick-2",
+      "text": "🛍️ আজকের সেরা অফার: স্থানীয় রেস্টুরেন্টগুলোতে সর্বোচ্চ ৩৫% পর্যন্ত ছাড় চলছে।",
+      "detail": "ধানমন্ডি এলাকার শীর্ষস্থানীয় রেস্টুরেন্টগুলোতে আজকের জন্য থাকছে বিশেষ ছাড়! রেস্ট বাজারের মাধ্যমে অর্ডার করলেই পেয়ে যাবেন ১৫% থেকে ৩৫% পর্যন্ত সরাসরি ডিসকাউন্ট। অফারটি সীমিত সময়ের জন্য প্রযোজ্য, তাই আজই আপনার পছন্দের খাবারটি অর্ডার করুন।"
+    },
+    {
+      "id": "tick-3",
+      "text": "🩺 জরুরি সেবা বা অ্যাম্বুলেন্স দরকার? উপরে 'জরুরি সেবা' ক্যাটাগরিতে ক্লিক করুন।",
+      "detail": "যেকোনো ধরণের জরুরি চিকিৎসা সহায়তা, অ্যাম্বুলেন্স সার্ভিস, ফায়ার সার্ভিস অথবা পুলিশ সহায়তার জন্য আমাদের 'জরুরি সেবা' সেকশনে ভিজিট করুন। সেখানে আপনার নিকটের সকল জরুরি সেবাদাতা প্রতিষ্ঠানের সরাসরি যোগাযোগের নম্বর এবং ঠিকানা দেওয়া আছে যা ২৪ ঘণ্টা সক্রিয় থাকে।"
+    },
+    {
+      "id": "tick-4",
+      "text": "🛵 আপনার এলাকার ১৫+ বিশ্বস্ত দোকান এখন আমাদের প্ল্যাটফর্মে সরাসরি অর্ডার নিচ্ছে।",
+      "detail": "মুদি দোকান, ফার্মেসি, রেস্টুরেন্ট থেকে শুরু করে আপনার এলাকার ১৫টিরও বেশি স্বনামধন্য ও বিশ্বস্ত ব্যবসাপ্রতিষ্ঠান রেস্ট বাজার ডিরেক্টরিতে যুক্ত হয়েছে। আপনার সুবিধামতো যেকোনো ক্যাটাগরি সিলেক্ট করে লাইভ স্টক দেখে অর্ডার কনফার্ম করতে পারেন।"
+    },
+    {
+      "id": "tick-5",
+      "text": "🤖 কি সেবা প্রয়োজন বুঝতে পারছেন না? নিচের ডান কোণায় 'এআই অ্যাসিস্ট্যান্ট' কে জিজ্ঞেস করুন।",
+      "detail": "আমাদের কৃত্রিম বুদ্ধিমত্তা সমৃদ্ধ এআই অ্যাসিস্ট্যান্ট আপনার যেকোনো প্রশ্নের উত্তর দিতে প্রস্তুত। কোন দোকানে কোন জিনিসটি ভালো হবে, অথবা কীভাবে অর্ডার করতে হবে তা জানতে চাইলে স্ক্রিনের নিচের ডান কোণায় চ্যাট আইকনে ক্লিক করে সরাসরি বাংলায় কথা বলুন!"
+    }
+  ],
+  "subscriptionPlans": [
+    {
+      "id": "free",
+      "name": "ফ্রি লিস্টিং (Free)",
+      "price": 0,
+      "pricePeriod": "আজীবন",
+      "features": [
+        "মৌলিক প্রোফাইল পেজ",
+        "সার্ভিস/পণ্যের তালিকা (সর্বোচ্চ ৩টি)",
+        "সরাসরি কল ও হোয়াটসঅ্যাপ সুবিধা",
+        "৫টি বুকিং বা অর্ডার প্রতি মাসে"
+      ],
+      "color": "border-slate-200 bg-white text-slate-900",
+      "buttonStyle": "bg-slate-100 text-slate-700 hover:bg-slate-200"
+    },
+    {
+      "id": "silver",
+      "name": "সিলভার প্ল্যান (Silver)",
+      "price": 499,
+      "pricePeriod": "মাসিক",
+      "features": [
+        "পণ্যের তালিকা (সর্বোচ্চ ১০টি)",
+        "পছন্দসই লোগো ও ৫টি ছবি আপলোড",
+        "অর্ডার ও কাস্টমার রিপোর্ট (বেসিক)",
+        "আনলিমিটেড অনলাইন বুকিং",
+        "সহজ কুপন কোড ও অফার যোগ"
+      ],
+      "color": "border-blue-200 bg-blue-50/30 text-blue-900",
+      "buttonStyle": "bg-blue-600 text-white hover:bg-blue-700"
+    },
+    {
+      "id": "gold",
+      "name": "গোল্ড প্ল্যান (Gold)",
+      "price": 999,
+      "pricePeriod": "মাসিক",
+      "features": [
+        "পণ্যের তালিকা (সর্বোচ্চ ৩০টি)",
+        "লোগো ও ১৫টি চমৎকার ফটো গ্যালারি",
+        "অ্যাডমিন ড্যাশবোর্ডে টপ লিস্টিং",
+        "১টি ফ্রি হোমপেজ ব্যানার বিজ্ঞাপন",
+        "AI বর্ণনা লেখার জাদুকরী সুবিধা",
+        "বিস্তারিত বিক্রির ও আয়ের গ্রাফ রিপোর্ট"
+      ],
+      "color": "border-amber-300 bg-amber-50/50 text-amber-900 ring-2 ring-amber-400",
+      "buttonStyle": "bg-amber-500 text-white hover:bg-amber-600"
+    },
+    {
+      "id": "diamond",
+      "name": "ডায়মন্ড ভিআইপি (Diamond)",
+      "price": 1999,
+      "pricePeriod": "মাসিক",
+      "features": [
+        "আনলিমিটেড পণ্য/সার্ভিস তালিকা",
+        "সর্বোচ্চ প্রায়োরিটি সার্চ বুস্টিং",
+        "৩টি ক্যাটাগরি ও টপ সার্চ বিজ্ঞাপন",
+        "মাসিক আনলিমিটেড হোয়াটসঅ্যাপ নোটিফিকেশন",
+        "অফিশিয়াল ভেরিফাইড ব্যাজ (Verified Badge)",
+        "সার্বক্ষণিক কাস্টমার কেয়ার সাপোর্ট"
+      ],
+      "color": "border-purple-300 bg-purple-50/30 text-purple-900",
+      "buttonStyle": "bg-purple-600 text-white hover:bg-purple-700"
+    }
+  ],
+  "categories": [
+    {
+      "id": "grocery",
+      "nameBangla": "মুদি দোকান",
+      "nameEnglish": "Grocery",
+      "iconName": "ShoppingBag",
+      "description": "নিত্যপ্রয়োজনীয় মুদি সামগ্রী ও হোম ডেলিভারি",
+      "color": "bg-emerald-50 text-emerald-600 border-emerald-100 hover:bg-emerald-100"
+    },
+    {
+      "id": "pharmacy",
+      "nameBangla": "ওষুধের দোকান",
+      "nameEnglish": "Pharmacy",
+      "iconName": "Pill",
+      "description": "প্রেসক্রিপশন ওষুধ ও ফার্স্ট এইড সরঞ্জাম",
+      "color": "bg-red-50 text-red-600 border-red-100 hover:bg-red-100"
+    },
+    {
+      "id": "electrician",
+      "nameBangla": "ইলেকট্রিশিয়ান",
+      "nameEnglish": "Electrician",
+      "iconName": "Zap",
+      "description": "এসি, ফ্রিজ, ফ্যান ও বাসার সকল ওয়্যারিং মেরামত",
+      "color": "bg-amber-50 text-amber-600 border-amber-100 hover:bg-amber-100"
+    },
+    {
+      "id": "plumber",
+      "nameBangla": "প্লাম্বার",
+      "nameEnglish": "Plumber",
+      "iconName": "Droplet",
+      "description": "পানি লাইনের লিকেজ, ট্যাপ ও বেসিন ফিটিংস",
+      "color": "bg-blue-50 text-blue-600 border-blue-100 hover:bg-blue-100"
+    },
+    {
+      "id": "mason",
+      "nameBangla": "রাজমিস্ত্রি",
+      "nameEnglish": "Mason",
+      "iconName": "Hammer",
+      "description": "ভবন নির্মাণ, ইটের গাঁথুনি ও প্লাস্টার কাজ",
+      "color": "bg-orange-50 text-orange-600 border-orange-100 hover:bg-orange-100"
+    },
+    {
+      "id": "restaurant",
+      "nameBangla": "খাবারের দোকান",
+      "nameEnglish": "Restaurant",
+      "iconName": "Utensils",
+      "description": "রেস্টুরেন্ট, ফাস্টফুড ও ঘরোয়া খাবার হোম ডেলিভারি",
+      "color": "bg-rose-50 text-rose-600 border-rose-100 hover:bg-rose-100"
+    },
+    {
+      "id": "transport",
+      "nameBangla": "রিকশা/পিকআপ ভাড়া",
+      "nameEnglish": "Transport",
+      "iconName": "Truck",
+      "description": "পণ্য আনা-নেওয়া বা ভ্রমণের জন্য পিকআপ ও রিকশা",
+      "color": "bg-purple-50 text-purple-600 border-purple-100 hover:bg-purple-100"
+    },
+    {
+      "id": "tutor",
+      "nameBangla": "টিউটর",
+      "nameEnglish": "Tutor",
+      "iconName": "GraduationCap",
+      "description": "অভিজ্ঞ স্কুল, কলেজ ও বিশ্ববিদ্যালয়ের হোম টিউটর",
+      "color": "bg-indigo-50 text-indigo-600 border-indigo-100 hover:bg-indigo-100"
+    },
+    {
+      "id": "parlor",
+      "nameBangla": "বিউটি পার্লার",
+      "nameEnglish": "Beauty Parlor",
+      "iconName": "Scissors",
+      "description": "ছেলে ও মেয়েদের রূপচর্চা, সাজসজ্জা ও হেয়ার কাট",
+      "color": "bg-pink-50 text-pink-600 border-pink-100 hover:bg-pink-100"
+    },
+    {
+      "id": "mechanic",
+      "nameBangla": "মেকানিক",
+      "nameEnglish": "Mechanic",
+      "iconName": "Wrench",
+      "description": "মোটরসাইকেল, গাড়ি ও বাইসাইকেল মেরামত",
+      "color": "bg-slate-50 text-slate-600 border-slate-100 hover:bg-slate-100"
+    },
+    {
+      "id": "wholesale",
+      "nameBangla": "পাইকারি দোকান",
+      "nameEnglish": "Wholesale Shop",
+      "iconName": "ShoppingBag",
+      "description": "খুচরা দোকানদারদের জন্য বিশেষ পাইকারি রেটে পণ্য ও সরবরাহ",
+      "color": "bg-teal-50 text-teal-600 border-teal-100 hover:bg-teal-100"
+    }
+  ],
+  "systemConfig": {
+    "globalCommissionRate": 5,
+    "categoryCommissionRates": {
+      "grocery": 3,
+      "pharmacy": 2,
+      "restaurant": 8,
+      "wholesale": 4
+    },
+    "merchantCommissionRates": {}
+  },
+  "platformOffers": [
+    {
+      "id": "offer-1",
+      "code": "WELCOME10",
+      "title": "১০% নতুন মার্চেন্ট ডিসকাউন্ট",
+      "description": "নতুন মার্চেন্টদের জন্য যেকোনো কেনাকাটায় ১০% ফ্ল্যাট ডিসকাউন্ট পান!",
+      "discountPercent": 10,
+      "minSpend": 500,
+      "isActive": true,
+      "expiryDate": "2026-12-31"
+    },
+    {
+      "id": "offer-2",
+      "code": "FREEBIE",
+      "title": "মুদিতে ফ্রি হোম ডেলিভারি",
+      "description": "১০০০ টাকার বেশি মুদি বাজার করলেই ডেলিভারি চার্জ সম্পূর্ণ ফ্রি!",
+      "discountPercent": 0,
+      "minSpend": 1000,
+      "isActive": true,
+      "expiryDate": "2026-08-31"
+    }
+  ]
+}

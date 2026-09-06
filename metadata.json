@@ -1,0 +1,6 @@
+{
+  "name": "Rest Bazar",
+  "description": "একটি স্থানীয় ব্যবসা ডিরেক্টরি এবং সার্ভিস বুকিং প্ল্যাটফর্ম, যেখানে ব্যবহারকারীরা আশেপাশের মুদি, ফার্মেসি, ইলেকট্রিশিয়ান, প্লাম্বার এবং আরও অনেক সেবা খুঁজে পাবেন, সরাসরি যোগাযোগ বা বুকিং করতে পারবেন।",
+  "requestFramePermissions": ["geolocation", "camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
